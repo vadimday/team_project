@@ -1,0 +1,18 @@
+//utils
+@import './scss/utils/root';
+@import './scss/utils/reset';
+@import './scss/utils/fonts_import';
+
+
+//components
+@import'./scss/components/global_grid';
+@import './scss/components/header';
+@import './scss/components/build_section';
+@import './scss/components/category_section';
+@import './scss/components/deals_section';
+@import './scss/components/available_section';
+@import './scss/components/get_our_monthly';
+@import './scss/components/how_it_works';
+@import './scss/components/users_feedbacks';
+@import './scss/components/latest_blogs';
+@import './scss/components/footer';

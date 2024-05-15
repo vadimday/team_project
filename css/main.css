@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-Bold";
+  src: url(../../fonts/CabinetGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: "SF-Pro-Display-Semibold";
+  src: url(../../fonts/SF-Pro-Display-Semibold.otf);
+}
+body {
+  display: grid;
+  grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(512px, auto);
+}
+
+main {
+  display: grid;
+  grid-template-rows: minmax(971px, auto) minmax(578px, auto) minmax(570px, auto) minmax(1326px, auto) minmax(570px, auto) minmax(514px, auto) minmax(570px, auto) minmax(804px, auto);
+}
+
+header {
+  background-color: red;
+}
+
+.build_section {
+  background-color: purple;
+  height: 100%;
+}
+
+.category_section {
+  background-color: blueviolet;
+  height: 100%;
+}
+
+.deals_section {
+  background-color: greenyellow;
+  height: 100%;
+}
+
+.available_section {
+  background-color: red;
+  height: 100%;
+}
+
+.get_our_monthly_section {
+  background-color: rgb(76, 255, 5);
+  height: 100%;
+}
+
+.how_it_works_section {
+  background-color: blue;
+}
+
+.users_feedbacks_section {
+  background-color: rgb(5, 161, 5);
+}
+
+.latest_blogs_section {
+  background-color: rgb(0, 217, 255);
+}
+
+.footer {
+  background-color: #09153D;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

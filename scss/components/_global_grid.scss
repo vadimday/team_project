@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(512px, auto);
+}
+
+
+main {
+    display: grid;
+    grid-template-rows: minmax(971px, auto) minmax(578px, auto) minmax(570px, auto) minmax(1326px, auto) minmax(570px, auto) minmax(514px, auto) minmax(570px, auto) minmax(804px, auto);
+}
