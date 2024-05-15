@@ -19,6 +19,7 @@
 body {
   display: grid;
   grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(512px, auto);
+  overflow-x: hidden;
 }
 
 main {
@@ -26,10 +27,84 @@ main {
   grid-template-rows: minmax(971px, auto) minmax(578px, auto) minmax(570px, auto) minmax(1326px, auto) minmax(570px, auto) minmax(514px, auto) minmax(570px, auto) minmax(804px, auto);
 }
 
-header {
-  background-color: red;
+.header {
+  background-color: #FFF5F7;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+.nav {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav_list li {
+  padding: 5px 10px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.nav_list li:hover {
+  cursor: pointer;
+  color: #FFE1E8;
+  background-color: #FFE1E8;
+  color: #EE1C47;
+}
+
+.nav_profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav_profile:hover {
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.nav_button {
+  padding: 20px 25px;
+  background-color: #EE1C47;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.nav_button:hover {
+  padding: 20px 25px;
+  background-color: white;
+  color: #EE1C47;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.nav_profile_button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 1300px) {
+  .nav_profile {
+    display: none;
+  }
+}
 .build_section {
   background-color: purple;
   height: 100%;

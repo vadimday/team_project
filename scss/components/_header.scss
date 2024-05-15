@@ -1,3 +1,78 @@
-header {
-    background-color: red;
+.header {
+    background-color: #FFF5F7;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_list li {
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.nav_list li:hover {
+    cursor: pointer;
+    color: $red-hover-header;
+    background-color: #FFE1E8;
+    color: $red-accent-color;
+}
+
+.nav_profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav_profile:hover {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.nav_button {
+    padding: 20px 25px;
+    background-color: $red-accent-color;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.nav_button:hover {
+    padding: 20px 25px;
+    background-color: white;
+    color: $red-accent-color;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.nav_profile_button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 1300px) {
+    .nav_profile {
+        display: none;
+    }
 }
