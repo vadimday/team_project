@@ -5,6 +5,11 @@
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
 }
 
 .nav {
@@ -12,7 +17,7 @@
     font-weight: 400;
     display: flex;
     width: 80%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -70,6 +75,7 @@
     align-items: center;
     gap: 30px;
 }
+
 
 @media (max-width: 1300px) {
     .nav_profile {
