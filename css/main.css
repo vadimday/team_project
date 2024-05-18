@@ -360,29 +360,33 @@ main {
 }
 
 .latest_blogs_section {
+  width: 100vw;
   background-color: rgba(128, 128, 128, 0.062);
+  height: 1000px;
 }
 
 .latest_blog_div1 {
   width: 100vw;
-  position: relative;
-}
-.latest_blog_div1 img {
-  position: absolute;
-  padding-left: 755px;
-  margin-top: -14px;
+  display: grid;
+  justify-items: center;
 }
 
 .Latest_blogs {
+  display: grid;
+  display: flex;
+  color: #09153D;
   font-size: 48px;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 80px;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 51px;
 }
 
 .latest_blog_grid {
-  height: 574px;
+  width: 100vw;
+  height: 500px;
   display: grid;
-  padding-top: 50px;
+  padding-top: 30px;
   grid-template-columns: 410px 410px 410px;
   grid-template-rows: 1fr;
   gap: 0px 30px;
@@ -392,7 +396,9 @@ main {
 .latest_blog_grid .latest_blog_block1 {
   width: 410px;
   height: 540px;
+  box-shadow: 0.5px 3.1px 5.3px rgba(0, 0, 0, 0.008), 1.6px 10.3px 17.9px rgba(0, 0, 0, 0.012), 7px 46px 80px rgba(0, 0, 0, 0.02);
   border-radius: 24px;
+  cursor: pointer;
 }
 .latest_blog_grid .latest_blog_block1 img {
   width: 486px;
@@ -402,6 +408,8 @@ main {
 }
 .latest_blog_grid .latest_blog_block1 .latest_blog_p {
   font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: #09153D;
   padding-top: 24px;
   padding-left: 30px;
   padding-bottom: 8px;
@@ -436,15 +444,35 @@ main {
 }
 .latest_blog_grid .latest_blog_block1 .latest_blog_pp {
   font-size: 20px;
+  color: #09153D;
   margin-top: -10px;
   padding-left: 30px;
   padding-bottom: 8px;
 }
 .latest_blog_grid .latest_blog_block1 .latest_blog_pp2 {
   font-size: 20px;
+  color: #09153D;
   margin-top: -28px;
   padding-left: 30px;
   padding-bottom: 8px;
+}
+.latest_blog_grid button {
+  display: flex;
+  color: white;
+  width: 114px;
+  height: 59px;
+  outline: none;
+  border: 1px solid white;
+  background-color: #EE1C47;
+  border-radius: 16px;
+  padding: 20px;
+  justify-content: center;
+  margin-left: 600px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.latest_blog_grid button:hover {
+  background-color: rgb(209, 19, 19);
 }
 
 .footer {
