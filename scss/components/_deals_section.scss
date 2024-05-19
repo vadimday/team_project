@@ -2,40 +2,123 @@
     background-image: url("../image/main_img/3_deals_section/city_background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+
 
 
     .box_shadow {
         background-color: rgba(0, 0, 0, 0.66);
         height: 100%;
-        z-index: -20;
+        z-index: -17;
 
         .deals_section_desc {
             width: 100%;
+            padding: 150px 0 244px 100px;
+            z-index: 10;
 
             .deals_section_text {
                 font-family: $second-family;
-                max-width: 690px;
                 font-weight: 800;
                 font-size: 48px;
-                line-height: 125%;
+                line-height: 60px;
                 color: #fff;
                 opacity: 1;
+                z-index: 1;
+
+                span {
+                    font-family: $second-family;
+                    font-weight: 800;
+                    font-size: 48px;
+                    line-height: 60px;
+                    color: $orange-accent-color;
+                    opacity: 1;
+                }
             }
 
             .deals_section_btn {
-                position: absolute;
-                border-radius: 16px;
-                padding: 20px 25px;
+                position: relative;
+                display: inline-block;
                 width: 148px;
-                height: 59px;
-                background-color: #f50435;
-                color: #FFFFFF;
-                opacity: 1;
-
-
+                height: 60px;
+                text-align: center;
+                line-height: 60px;
+                color: white;
+                font-size: 16px;
+                font-family: $second-family;
+                background: linear-gradient(90deg, #e3035d, #e33913, #98300b, #fa0707);
+                background-size: 200%;
+                border-radius: 20px;
+                z-index: 1;
+                margin-top: 40px;
             }
+
+            .deals_section_btn:hover {
+                animation: animate 33 linear infinite;
+            }
+
+            @keyframes animate {
+                0% {
+                    background-position: 0%;
+                }
+
+                100% {
+                    background-position: 300%;
+                }
+            }
+
+            .deals_section_btn:before {
+                content: "";
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                bottom: -5px;
+                left: -5px;
+                z-index: -1;
+                background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+                background-size: 400%;
+                border-radius: 40px;
+                opacity: 0;
+                transition: 1.5s;
+            }
+
+            .deals_section_btn:hover:before {
+                filter: blur(10px);
+                opacity: 1;
+                animation: animate 5s linear infinite;
+            }
+
+
         }
 
+
+        .first_deal_sec_card {
+            position: absolute;
+            top: 91px;
+            right: 159px;
+            z-index: 2;
+        }
+
+        .second_deal_sec_card {
+            position: absolute;
+            top: 100px;
+            right: 100px;
+            z-index: 1;
+        }
+
+        .orange_line {
+            position: absolute;
+            top: 502px;
+            right: 537px;
+            z-index: 3;
+        }
+
+
+        .white_line {
+            position: absolute;
+            top: 112px;
+            right: 25px;
+
+        }
 
     }
 }
