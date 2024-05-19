@@ -1,4 +1,225 @@
 .available_section {
-    background-color: red;
     height: 100%;
+    max-height: 1326px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 0.2fr 1.8fr;
+    margin-top: 120px;
+
+    &_info {
+        position: relative;
+    }
+
+    &_title {
+        font-family: $font-family;
+        color: $main-font-color;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 125%;
+    }
+
+    &_accent {
+        position: absolute;
+        z-index: -1;
+        top: 31%;
+        left: 0;
+    }
+
+    &_desc {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 200px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &_text {
+        font-family: $font-family;
+        color: $descriptions-font-color;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+    }
+
+    &_btn {
+        padding: 20px 25px;
+        border-radius: 16px;
+        border: 1px solid $red-accent-color;
+        background-color: $red-accent-color;
+        font-family: $font-family;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    //card style start//
+    .available_section_card_box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px 20px;
+        margin-bottom: 120px;
+        margin-top: 50px;
+    }
+
+    .available_section_card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        max-height: 548px;
+    }
+
+    .available_card_poster {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .available_card_sticker {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 80%;
+        left: 5%;
+
+    }
+
+    .available_category_name {
+        font-family: $font-family;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 175%;
+        text-align: center;
+        padding: 6px 16px;
+        background-color: $orange-accent-color;
+        border: 1px solid $orange-accent-color;
+        border-radius: 40px;
+
+    }
+
+    .available_category_rate {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 7px 12px;
+
+        & img {
+            padding-right: 5px;
+        }
+
+        & p {
+            font-family: $font-family;
+            color: $descriptions-font-color;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+        }
+    }
+
+    .available_card_info {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+    }
+
+    .available_card_name {
+        font-family: $font-family;
+        color: $main-font-color;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+    .available_card_price {
+        font-family: $font-family;
+        color: $red-accent-color;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+    .available_card_contact {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+
+        & img {
+            padding-right: 6px;
+        }
+
+        & p {
+            color: $descriptions-font-color;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 175%;
+        }
+    }
+
+    .available_card_user {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 30px 70px 0 rgba(2, 13, 46, 0.04);
+        background-color: rgba(103, 108, 123, 0.05);
+        border-radius: 0 0 24px 24px;
+        margin-top: 24px;
+    }
+
+    .availbale_card_user_info {
+        display: flex;
+        align-items: center;
+        margin: 16px 0 16px 24px;
+
+        & img {
+            margin-right: 8px;
+        }
+
+    }
+
+    .available_card_user_name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        margin-bottom: 5px;
+    }
+
+    .available_card_user_date {
+        color: $descriptions-font-color;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+    }
+
+    .available_card_arrow {
+        width: 32px;
+        height: 32px;
+        margin-right: 24px;
+    }
+
+    .available_card_arrow:hover {
+        cursor: pointer;
+        fill: $red-accent-color;
+    }
 }
