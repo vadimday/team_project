@@ -337,7 +337,7 @@ main {
 }
 
 .deals_section {
-  background-image: url("../../image/main_img/3_deals_section/city_background.png");
+  background-image: url("../image/main_img/3_deals_section/city_background.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
