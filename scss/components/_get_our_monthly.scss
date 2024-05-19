@@ -1,4 +1,59 @@
 .get_our_monthly_section {
-    background-color: rgb(76, 255, 5);
+    margin-top: 120px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $main-font-color;
+
+    .get_our_monthly_conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+
+        .our_monthly_text {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            background-image: url('../../image/main_img/5_get_our_monthly_section/back_effect.png');
+
+            .decoration_text {
+                position: relative;
+
+                & h3 {
+                    font-family: $font-family;
+                    font-size: 48px;
+                    font-weight: 800;
+                    line-height: 60px;
+                    color: $main-font-color;
+                    max-width: 410px;
+                    z-index: 2;
+                }
+
+                & img {
+                    position: absolute;
+                    max-width: 420px;
+                    top: 107px;
+                }
+            }
+
+
+
+            .our_monthly_desc {
+                color: $descriptions-font-color;
+                font-family: $font-family;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                max-width: 550px;
+            }
+
+        }
+
+        .our_monthly_player {
+            position: relative;
+            background-image: url('../../image/main_img/5_get_our_monthly_section/background_player.png');
+        }
+    }
 }

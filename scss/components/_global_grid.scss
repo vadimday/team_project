@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(512px, auto);
+    grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(max-width 512px, auto);
     overflow-x: hidden;
 }
 

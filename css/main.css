@@ -18,7 +18,7 @@
 }
 body {
   display: grid;
-  grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(512px, auto);
+  grid-template-rows: minmax(90px, auto) minmax(6874px, auto) minmax(max-width 512px, auto);
   overflow-x: hidden;
 }
 
@@ -634,8 +634,53 @@ main {
 }
 
 .get_our_monthly_section {
-  background-color: rgb(76, 255, 5);
+  margin-top: 120px;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #09153D;
+}
+.get_our_monthly_section .get_our_monthly_conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  background-image: url("../../image/main_img/5_get_our_monthly_section/back_effect.png");
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text {
+  position: relative;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  color: #09153D;
+  max-width: 410px;
+  z-index: 2;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text img {
+  position: absolute;
+  max-width: 420px;
+  top: 107px;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_desc {
+  color: #676C7B;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 550px;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_player {
+  position: relative;
+  background-image: url("../../image/main_img/5_get_our_monthly_section/background_player.png");
 }
 
 .how_it_works_section {
