@@ -16,7 +16,7 @@
             flex-direction: column;
             justify-content: center;
             background-color: white;
-            background-image: url('../../image/main_img/5_get_our_monthly_section/back_effect.png');
+            background-image: url('../image/main_img/5_get_our_monthly_section/back_effect.png');
 
             .our_monthly_center {
                 display: flex;
@@ -75,7 +75,7 @@
                         margin-top: 30px;
                         border: 1px solid #FFFFFF;
                         border-radius: 16px;
-                        padding: 15px 195px 14px 25px;
+                        padding: 20px 195px 20px 25px;
                     }
 
                 }
@@ -91,7 +91,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('../../image/main_img/5_get_our_monthly_section/background_player.png');
+            background-image: url('../image/main_img/5_get_our_monthly_section/background_player.png');
 
             .scale-up-center {
                 cursor: pointer;
