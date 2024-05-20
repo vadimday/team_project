@@ -653,10 +653,15 @@ main {
   background-color: white;
   background-image: url("../../image/main_img/5_get_our_monthly_section/back_effect.png");
 }
-.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text {
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center .decoration_text {
   position: relative;
 }
-.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text h3 {
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center .decoration_text h3 {
   font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 800;
@@ -665,18 +670,39 @@ main {
   max-width: 410px;
   z-index: 2;
 }
-.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .decoration_text img {
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center .decoration_text img {
   position: absolute;
   max-width: 420px;
   top: 107px;
 }
-.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_desc {
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center .our_monthly_desc {
   color: #676C7B;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   max-width: 550px;
+  margin-top: 30px;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center form .input_btn {
+  cursor: pointer;
+  border: 0px solid;
+  border-radius: 16px;
+  color: #FFFFFF;
+  background-color: #FF823A;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center form input {
+  margin-top: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+  padding: 15px 195px 14px 25px;
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center form input:active {
+  border: 1px solid red;
 }
 .get_our_monthly_section .get_our_monthly_conteiner .our_monthly_player {
   position: relative;
