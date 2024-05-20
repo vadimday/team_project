@@ -31,4 +31,24 @@
         margin-top: 20px;
     }
 
+    &_box {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        & div {
+            margin-right: 30px;
+        }
+
+        & div:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &_card {
+        width: 410px;
+        height: 314px;
+        border: none;
+    }
+
 }

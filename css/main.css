@@ -711,6 +711,22 @@ main {
   line-height: 30px;
   margin-top: 20px;
 }
+.how_it_works_section_box {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.how_it_works_section_box div {
+  margin-right: 30px;
+}
+.how_it_works_section_box div:last-child {
+  margin-right: 0;
+}
+.how_it_works_section_card {
+  width: 410px;
+  height: 314px;
+  border: none;
+}
 
 .users_feedbacks_section {
   background-color: rgb(5, 161, 5);
