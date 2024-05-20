@@ -1,5 +1,10 @@
 .how_it_works_section {
-    width: 80%;
+    width: 90%;
+    height: 514px;
+    margin: 0 auto;
+    margin-top: 240px;
+    position: relative;
+
 
     &_title {
         color: $main-font-color;
@@ -8,6 +13,14 @@
         font-size: 48px;
         line-height: 60px;
         font-weight: 800;
+
+    }
+
+    &_line {
+        position: absolute;
+        left: 450px;
+        top: 45px;
+        z-index: -1;
     }
 
     &_desc {
@@ -15,6 +28,7 @@
         font-size: 16px;
         text-align: center;
         line-height: 30px;
+        margin-top: 20px;
     }
 
 }
