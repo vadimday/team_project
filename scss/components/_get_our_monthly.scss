@@ -135,6 +135,9 @@
 
 @media (max-width: 1200px) {
     .get_our_monthly_section {
+        margin-top: 0px;
+        width: 80%;
+
         .get_our_monthly_conteiner {
             display: grid;
             grid-template-columns: 1fr;
