@@ -705,8 +705,22 @@ main {
   border: 1px solid red;
 }
 .get_our_monthly_section .get_our_monthly_conteiner .our_monthly_player {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../../image/main_img/5_get_our_monthly_section/background_player.png");
+}
+.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_player .scale-up-center {
+  cursor: pointer;
+  animation: scale-up-center 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .how_it_works_article {

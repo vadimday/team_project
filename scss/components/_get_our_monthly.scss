@@ -90,8 +90,40 @@
         }
 
         .our_monthly_player {
-            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-image: url('../../image/main_img/5_get_our_monthly_section/background_player.png');
+
+            .scale-up-center {
+                cursor: pointer;
+                -webkit-animation: scale-up-center 1.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
+                animation: scale-up-center 1.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
+
+                @-webkit-keyframes scale-up-center {
+                    0% {
+                        -webkit-transform: scale(.9);
+                        transform: scale(.9)
+                    }
+
+                    100% {
+                        -webkit-transform: scale(1);
+                        transform: scale(1)
+                    }
+                }
+
+                @keyframes scale-up-center {
+                    0% {
+                        -webkit-transform: scale(.9);
+                        transform: scale(.9)
+                    }
+
+                    100% {
+                        -webkit-transform: scale(1);
+                        transform: scale(1)
+                    }
+                }
+            }
         }
     }
 }
