@@ -395,7 +395,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/image/main_img/2_category_section/card_business.png);
+  background-image: url(../image/main_img/2_category_section/card_business.png);
   padding-left: 24px;
   padding-bottom: 24px;
 }
@@ -428,7 +428,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/image/main_img/2_category_section/card_eat_and_foods.png);
+  background-image: url(../image/main_img/2_category_section/card_eat_and_foods.png);
   padding-left: 24px;
   padding-bottom: 24px;
   transition: color 0.2s, background-color 0.2s;
@@ -461,7 +461,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/image/main_img/2_category_section/card_education.png);
+  background-image: url(../image/main_img/2_category_section/card_education.png);
   padding-left: 24px;
   padding-bottom: 24px;
   transition: color 0.2s, background-color 0.2s;
@@ -494,7 +494,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/image/main_img/2_category_section/card_healthcare.png);
+  background-image: url(../image/main_img/2_category_section/card_healthcare.png);
   padding-left: 24px;
   padding-bottom: 24px;
   transition: color 0.2s, background-color 0.2s;
