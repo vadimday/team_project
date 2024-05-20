@@ -18,36 +18,74 @@
             background-color: white;
             background-image: url('../../image/main_img/5_get_our_monthly_section/back_effect.png');
 
-            .decoration_text {
-                position: relative;
+            .our_monthly_center {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
 
-                & h3 {
+                .decoration_text {
+                    position: relative;
+
+                    & h3 {
+                        font-family: $font-family;
+                        font-size: 48px;
+                        font-weight: 800;
+                        line-height: 60px;
+                        color: $main-font-color;
+                        max-width: 410px;
+                        z-index: 2;
+                    }
+
+                    & img {
+                        position: absolute;
+                        max-width: 420px;
+                        top: 107px;
+                    }
+                }
+
+
+
+                .our_monthly_desc {
+                    color: $descriptions-font-color;
                     font-family: $font-family;
-                    font-size: 48px;
-                    font-weight: 800;
-                    line-height: 60px;
-                    color: $main-font-color;
-                    max-width: 410px;
-                    z-index: 2;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    max-width: 550px;
+                    margin-top: 30px;
                 }
 
-                & img {
-                    position: absolute;
-                    max-width: 420px;
-                    top: 107px;
+                & form {
+
+                    .input_btn {
+                        cursor: pointer;
+                        border: 0px solid;
+                        border-radius: 16px;
+                        color: #FFFFFF;
+                        background-color: $orange-accent-color;
+                        padding-top: 20px;
+                        padding-right: 25px;
+                        padding-bottom: 20px;
+                        padding-left: 25px;
+
+                    }
+
+                    & input {
+                        margin-top: 30px;
+                        border: 1px solid #FFFFFF;
+                        border-radius: 16px;
+                        padding: 15px 195px 14px 25px;
+                    }
+
+                    & input:active {
+                        border: 1px solid red;
+                    }
                 }
+
+
             }
 
 
-
-            .our_monthly_desc {
-                color: $descriptions-font-color;
-                font-family: $font-family;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 30px;
-                max-width: 550px;
-            }
 
         }
 
