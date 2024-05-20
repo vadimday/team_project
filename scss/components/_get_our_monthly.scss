@@ -87,6 +87,13 @@
 
         }
 
+
+
+
+
+
+        //Plalyer_animation
+
         .our_monthly_player {
             display: flex;
             justify-content: center;
@@ -122,6 +129,16 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .get_our_monthly_section {
+        .get_our_monthly_conteiner {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
         }
     }
 }

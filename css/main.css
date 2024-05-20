@@ -27,6 +27,12 @@ main {
   grid-template-rows: minmax(971px, auto) minmax(578px, auto) minmax(570px, auto) minmax(1326px, auto) minmax(570px, auto) minmax(514px, auto) minmax(570px, auto) minmax(804px, auto);
 }
 
+@media (max-width: 1200px) {
+  main {
+    display: grid;
+    grid-template-rows: minmax(971px, auto) minmax(578px, auto) minmax(570px, auto) minmax(1326px, auto) minmax(900px, auto) minmax(514px, auto) minmax(570px, auto) minmax(804px, auto);
+  }
+}
 .header {
   background-color: #FFF5F7;
   width: 100vw;
@@ -929,6 +935,13 @@ main {
   }
 }
 
+@media (max-width: 1200px) {
+  .get_our_monthly_section .get_our_monthly_conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 .how_it_works_article {
   width: 90%;
   margin: 0 auto;
