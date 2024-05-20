@@ -4,11 +4,15 @@
     margin: 0 auto;
     margin-top: 240px;
     margin-bottom: 120px;
-    position: relative;
+
 
     &_line_box {
-        display: flex;
-        justify-content: center;
+        width: 422px;
+        // display: flex;
+        // justify-content: center;
+        margin: 0 auto;
+        position: relative;
+
     }
 
     &_title {
@@ -23,8 +27,8 @@
 
     &_line {
         position: absolute;
-        left: 480px;
-        top: 45px;
+        left: 8px;
+        top: -16px;
         z-index: -1;
     }
 
