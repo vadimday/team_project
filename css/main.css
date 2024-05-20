@@ -359,7 +359,7 @@ main {
   line-height: 60px;
   color: #fff;
   opacity: 1;
-  z-index: 12;
+  z-index: 1;
 }
 .deals_section .box_shadow .deals_section_desc .deals_section_text span {
   font-family: "SF-Pro-Display-Semibold", sans-serif;
