@@ -692,6 +692,13 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 48px;
   line-height: 60px;
+  font-weight: 800;
+}
+.how_it_works_section_desc {
+  color: #676C7B;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .users_feedbacks_section {

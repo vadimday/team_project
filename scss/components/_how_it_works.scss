@@ -7,6 +7,14 @@
         font-family: $font-family ;
         font-size: 48px;
         line-height: 60px;
+        font-weight: 800;
+    }
+
+    &_desc {
+        color: $descriptions-font-color;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
     }
 
 }
