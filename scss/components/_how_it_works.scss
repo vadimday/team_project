@@ -1,10 +1,15 @@
-.how_it_works_section {
+.how_it_works_article {
     width: 90%;
-    height: 514px;
+    // height: 514px;
     margin: 0 auto;
     margin-top: 240px;
+    margin-bottom: 120px;
     position: relative;
 
+    &_line_box {
+        display: flex;
+        justify-content: center;
+    }
 
     &_title {
         color: $main-font-color;
@@ -18,7 +23,7 @@
 
     &_line {
         position: absolute;
-        left: 450px;
+        left: 480px;
         top: 45px;
         z-index: -1;
     }
@@ -33,6 +38,8 @@
 
     &_box {
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto;
         margin-top: 50px;
 
@@ -46,9 +53,39 @@
     }
 
     &_card {
+        // display: grid;
+        // place-items: center;
         width: 410px;
         height: 314px;
         border: none;
+        border-radius: 24px;
+        -webkit-box-shadow: 0px 0px 52px -39px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 52px -39px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 52px -39px rgba(0, 0, 0, 0.75);
+
+        .card_img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 60px 0 30px 0;
+        }
+
+        .card_title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .card_desc {
+            font-size: 16px;
+            color: $descriptions-font-color;
+            line-height: 28px;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+
     }
 
 }
