@@ -696,13 +696,11 @@ main {
   padding-left: 25px;
 }
 .get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center form input {
+  outline: none;
   margin-top: 30px;
   border: 1px solid #FFFFFF;
   border-radius: 16px;
   padding: 15px 195px 14px 25px;
-}
-.get_our_monthly_section .get_our_monthly_conteiner .our_monthly_text .our_monthly_center form input:active {
-  border: 1px solid red;
 }
 .get_our_monthly_section .get_our_monthly_conteiner .our_monthly_player {
   display: flex;
