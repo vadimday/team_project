@@ -684,7 +684,14 @@ main {
 }
 
 .how_it_works_section {
-  background-color: blue;
+  width: 80%;
+}
+.how_it_works_section_title {
+  color: #09153D;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .users_feedbacks_section {
